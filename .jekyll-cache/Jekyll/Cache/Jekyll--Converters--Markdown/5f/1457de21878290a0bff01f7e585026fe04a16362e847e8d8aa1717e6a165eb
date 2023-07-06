@@ -1,0 +1,21 @@
+I"š<p>Typically, posts in Jekyll have a <code class="language-plaintext highlighter-rouge">YYYY-MM-DD</code> portion in the postâ€™s filename. The individual markdown posts can be freed from this naming convention to reduce the clutter in the filename.</p>
+
+<!--more-->
+
+<p>Also, it become easier to export a set of <code class="language-plaintext highlighter-rouge">*.md</code> files from any note-taking app and add them to the <code class="language-plaintext highlighter-rouge">_posts</code> folder without worrying about changing the filenames.</p>
+
+<p>Tail does this by using a <a href="https://stackoverflow.com/a/68287682/9523246">small plugin</a> that changes the <code class="language-plaintext highlighter-rouge">DATE_FILENAME_MATCHER</code> for <code class="language-plaintext highlighter-rouge">_posts</code> and <code class="language-plaintext highlighter-rouge">_drafts</code> folders</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">class</span> <span class="nc">Jekyll::PostReader</span>
+    <span class="c1"># Don't use DATE_FILENAME_MATCHER so we don't need to put those stupid dates</span>
+    <span class="c1"># in the filename. Also limit to just *.markdown, so it won't process binary</span>
+    <span class="c1"># files from e.g. drags.</span>
+    <span class="k">def</span> <span class="nf">read_posts</span><span class="p">(</span><span class="n">dir</span><span class="p">)</span>
+      <span class="n">read_publishable</span><span class="p">(</span><span class="n">dir</span><span class="p">,</span> <span class="s2">"_posts"</span><span class="p">,</span> <span class="sr">/.*\.md$/</span><span class="p">)</span>
+    <span class="k">end</span>
+    <span class="k">def</span> <span class="nf">read_drafts</span><span class="p">(</span><span class="n">dir</span><span class="p">)</span>
+      <span class="n">read_publishable</span><span class="p">(</span><span class="n">dir</span><span class="p">,</span> <span class="s2">"_drafts"</span><span class="p">,</span> <span class="sr">/.*\.md$/</span><span class="p">)</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+</code></pre></div></div>
+:ET
