@@ -1,8 +1,8 @@
 # Site settings
 title:          Megan Xiao
 description:    "Minimal Jekyll blog"
-baseurl:        "/"
-url:
+baseurl:        ""
+url:            "https://blog-site-wheat.vercel.app/"
 
 # https://jekyllrb.com/docs/configuration/options/
 timezone: America/New_York

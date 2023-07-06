@@ -28,10 +28,10 @@
   <link rel="stylesheet" href="/assets/css/main.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
 
-  <!-- Favicon -->
+  <!-- Favicon
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png"> -->
 
   <!-- RSS -->
   <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Megan Xiao" />
@@ -45,13 +45,14 @@
 
     <nav class="nav">
   <div class="nav-container">
-    <a href="//">
+    <a href="/">
       <h2 class="nav-title">Megan Xiao</h2>
     </a>
     <ul>
-      <li><a href="//">Posts</a></li>
-      <li><a href="//tags">Tags</a></li>
-      <li><a href="//about">About</a></li>
+      <li><a href="/">Posts</a></li>
+      <li><a href="/projects">Fun</a></li>
+      <li><a href="/tags">Tags</a></li>
+      <li><a href="/about">About</a></li>
     </ul>
   </div>
 </nav>
@@ -66,15 +67,11 @@
     <main>
         <div class="tags-clouds">
     
-    <a href="#New">New</a>
-    
-    <a href="#Old">Old</a>
-    
-    <a href="#Tail">Tail</a>
+    <a href="#Test">Test</a>
     
   </div>
   
-  <div class="tags-item" id="New">
+  <div class="tags-item" id="Test">
     <svg
       class="tags-item-icon"
       xmlns="http://www.w3.org/2000/svg"
@@ -93,134 +90,16 @@
       ></path>
       <line x1="7" y1="7" x2="7.01" y2="7"></line>
     </svg>
-    <h2 class="tags-item-label">New</h2>
+    <h2 class="tags-item-label">Test</h2>
     
-    <a class="tags-post" href="//posts-without-filename">
+    <a class="tags-post" href="/test-post">
       <div>
-        <span class="tags-post-title">Posts Without Date in Filename</span>
+        <span class="tags-post-title">Test Post</span>
         <div class="tags-post-line"></div>
       </div>
       <span class="tags-post-meta">
-        <time datetime="2022-10-01 00:00:00 -0400">
-          2022-10-01
-        </time>
-      </span>
-    </a>
-    
-    <a class="tags-post" href="//posts-without-date">
-      <div>
-        <span class="tags-post-title">Posts Without Date in Frontmatter</span>
-        <div class="tags-post-line"></div>
-      </div>
-      <span class="tags-post-meta">
-        <time datetime="2022-09-01 00:00:00 -0400">
-          2022-09-01
-        </time>
-      </span>
-    </a>
-    
-  </div>
-  
-  <div class="tags-item" id="Old">
-    <svg
-      class="tags-item-icon"
-      xmlns="http://www.w3.org/2000/svg"
-      width="20"
-      height="20"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      class="feather feather-tag"
-    >
-      <path
-        d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
-      ></path>
-      <line x1="7" y1="7" x2="7.01" y2="7"></line>
-    </svg>
-    <h2 class="tags-item-label">Old</h2>
-    
-    <a class="tags-post" href="//example-content">
-      <div>
-        <span class="tags-post-title">Example Content</span>
-        <div class="tags-post-line"></div>
-      </div>
-      <span class="tags-post-meta">
-        <time datetime="2022-10-04 00:00:00 -0400">
-          2022-10-04
-        </time>
-      </span>
-    </a>
-    
-    <a class="tags-post" href="//managing-excerpt">
-      <div>
-        <span class="tags-post-title">Managing Excerpt</span>
-        <div class="tags-post-line"></div>
-      </div>
-      <span class="tags-post-meta">
-        <time datetime="2022-10-02 00:00:00 -0400">
-          2022-10-02
-        </time>
-      </span>
-    </a>
-    
-    <a class="tags-post" href="//pagination-post">
-      <div>
-        <span class="tags-post-title">Pagination Post</span>
-        <div class="tags-post-line"></div>
-      </div>
-      <span class="tags-post-meta">
-        <time datetime="2022-09-20 00:00:00 -0400">
-          2022-09-20
-        </time>
-      </span>
-    </a>
-    
-    <a class="tags-post" href="//sticky-posts">
-      <div>
-        <span class="tags-post-title">Sticky Posts</span>
-        <div class="tags-post-line"></div>
-      </div>
-      <span class="tags-post-meta">
-        <time datetime="2022-09-17 00:00:00 -0400">
-          2022-09-17
-        </time>
-      </span>
-    </a>
-    
-  </div>
-  
-  <div class="tags-item" id="Tail">
-    <svg
-      class="tags-item-icon"
-      xmlns="http://www.w3.org/2000/svg"
-      width="20"
-      height="20"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      stroke-width="2"
-      stroke-linecap="round"
-      stroke-linejoin="round"
-      class="feather feather-tag"
-    >
-      <path
-        d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"
-      ></path>
-      <line x1="7" y1="7" x2="7.01" y2="7"></line>
-    </svg>
-    <h2 class="tags-item-label">Tail</h2>
-    
-    <a class="tags-post" href="//introducing-tail">
-      <div>
-        <span class="tags-post-title">Introducing Tail</span>
-        <div class="tags-post-line"></div>
-      </div>
-      <span class="tags-post-meta">
-        <time datetime="2022-10-06 00:00:00 -0400">
-          2022-10-06
+        <time datetime="2023-07-06 00:00:00 -0400">
+          2023-07-06
         </time>
       </span>
     </a>
@@ -233,7 +112,7 @@
 
     <footer>
   <span>
-    &copy; <time datetime="2023-07-06 13:38:04 -0400">2023</time> Megan Xiao. Made with Jekyll using the <a href="https://github.com/jitinnair1/tail">Tail</a> theme.
+    &copy; <time datetime="2023-07-06 15:08:30 -0400">2023</time> Megan Xiao ♡. Made with Jekyll using the <a href="https://github.com/jitinnair1/tail">Tail</a> theme.
   </span>
 </footer>
 
