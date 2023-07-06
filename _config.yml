@@ -1,0 +1,46 @@
+# Site settings
+title:          Megan Xiao
+description:    "Minimal Jekyll blog"
+baseurl:        "/"
+url:
+
+# https://jekyllrb.com/docs/configuration/options/
+timezone: America/New_York
+
+# Google Analytics
+google_analytics:
+
+# Author
+author:
+  name:         Megan Xiao
+  url:          https://meganxiao.xyz
+  email:        megancxiao@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     /assets/css/_sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-last-modified-at
+
+# Permalinks
+permalink:      /:title
+paginate:       5
+
+# Excludes
+exclude:
+  - README.md
+  - LICENSE.md
+
+# Disqus (Set to your disqus id)
+disqus:
