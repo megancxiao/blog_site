@@ -10,6 +10,8 @@ $blue: #4a9ae1 !default;
 $shadow-color: rgba(0, 0, 0, .2) !default;
 $code-color: #bf616a !default;
 $body-bg: #fff;
+$projectbox: #c3e1c9;
+$projectbox-text:  #1e2126;
 
 
 // Colors
@@ -19,6 +21,7 @@ $default-tint-dark: #aaa;
 $shadow-color-dark: rgba(255, 255, 255, .2);
 $code-color-dark: #db1400;
 $body-bg-dark: #0F1216;
+$projectbox-dark: lighten(#98a0ac, 2%);
 
 
 // Fonts

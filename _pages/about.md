@@ -4,7 +4,9 @@ title: "About"
 permalink: /about/
 ---
 
-Hi! I'm Megan :) I currently work at Palantir as a software engineer in New York. I graduated Rice University with a degree in computer science and neuroscience.  
+Hi! I'm Megan :) 
+
+I currently work at Palantir as a software engineer in New York. I graduated Rice University with a degree in computer science and neuroscience.  
 
 I also 
 
