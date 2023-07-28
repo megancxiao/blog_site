@@ -17,6 +17,7 @@
     flex: 1 0 200px;
     border-radius: 15px;
     background: $projectbox;
+    border-style: $projectbox-border;
     @media (prefers-color-scheme: dark) {
       background: $projectbox-dark;
     }
