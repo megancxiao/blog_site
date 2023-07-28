@@ -1,33 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-07T18:15:21-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Megan Xiao</title><subtitle>Minimal Jekyll blog</subtitle><author><name>Megan Xiao</name><email>megancxiao@gmail.com</email></author><entry><title type="html">Test Post</title><link href="http://localhost:4000/test-post" rel="alternate" type="text/html" title="Test Post" /><published>2023-07-06T00:00:00-04:00</published><updated>2023-07-06T15:14:57-04:00</updated><id>http://localhost:4000/test-post</id><content type="html" xml:base="http://localhost:4000/test-post"><![CDATA[<p>How do take an already amazing theme like <a href="https://github.com/chesterhow/tale">Tale</a> and make it better? Yup, dark-mode<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. That and some more changes under the hood is what led to this theme called Tail (as a hat tip to the original theme of course)</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-28T13:46:16-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Megan Xiao</title><subtitle>Minimal Jekyll blog</subtitle><author><name>Megan Xiao</name><email>megancxiao@gmail.com</email></author><entry><title type="html">Crossword #1</title><link href="http://localhost:4000/test-post" rel="alternate" type="text/html" title="Crossword #1" /><published>2023-07-28T00:00:00-04:00</published><updated>2023-07-06T15:14:57-04:00</updated><id>http://localhost:4000/test-post</id><content type="html" xml:base="http://localhost:4000/test-post"><![CDATA[<p>First test crossword!</p>
 
-<!--more-->
-
-<h2 id="whats-new-in-tail">What’s new in Tail</h2>
-<ul>
-  <li>Dark Mode</li>
-  <li>Support for posts without the <code class="language-plaintext highlighter-rouge">YYYY-MM-DD</code> in post’s filename</li>
-  <li>Bi-directional Wiki-style linking support compatible with Obsidian (Planned)</li>
-</ul>
-
-<h2 id="some-great-features-from-the-original-tale">Some great features from the original Tale</h2>
-<ul>
-  <li>Compatible with GitHub Pages</li>
-  <li>Responsive design (looks just as good on mobile)</li>
-  <li>Syntax highlighting, with the help of Pygments</li>
-  <li>Markdown and HTML text formatting</li>
-  <li>Pagination of posts</li>
-  <li>Sticky posts</li>
-  <li>Tags</li>
-  <li>Excerpt management</li>
-  <li>Disqus comments</li>
-</ul>
-
-<h3 id="footnotes">Footnotes</h3>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>For now, there is no toggle button for the dark mode. This is by design. I wanted the dark-mode to be on if the browser or system level dark-mode is enabled. Maybe, in a later version, I will add support for a dark/light toggle. Happy to accept a PR! <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>Megan Xiao</name></author><category term="Test" /><summary type="html"><![CDATA[How do take an already amazing theme like Tale and make it better? Yup, dark-mode1. That and some more changes under the hood is what led to this theme called Tail (as a hat tip to the original theme of course) For now, there is no toggle button for the dark mode. This is by design. I wanted the dark-mode to be on if the browser or system level dark-mode is enabled. Maybe, in a later version, I will add support for a dark/light toggle. Happy to accept a PR! &#8617;]]></summary></entry></feed>
+<iframe style="height: 90vh; width: 100%;" src="https://crosshare.org/embed/nkkIo7xN7d5FKFEj5XpP/Uvcwx5uopffCVjT3YIYem7vfC1h2" frameborder="0" allowfullscreen="true" allowtransparency="true"></iframe>]]></content><author><name>Megan</name></author><category term="Test" /><summary type="html"><![CDATA[First test crossword!]]></summary></entry></feed>
