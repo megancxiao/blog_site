@@ -1,0 +1,34 @@
+I"M<p>How do take an already amazing theme like <a href="https://github.com/chesterhow/tale">Tale</a> and make it better? Yup, dark-mode<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>. That and some more changes under the hood is what led to this theme called Tail (as a hat tip to the original theme of course)</p>
+
+<!--more-->
+
+<h2 id="whats-new-in-tail">What’s new in Tail</h2>
+<ul>
+  <li>Dark Mode</li>
+  <li>Support for posts without the <code class="language-plaintext highlighter-rouge">YYYY-MM-DD</code> in post’s filename</li>
+  <li>Bi-directional Wiki-style linking support compatible with Obsidian (Planned)</li>
+</ul>
+
+<h2 id="some-great-features-from-the-original-tale">Some great features from the original Tale</h2>
+<ul>
+  <li>Compatible with GitHub Pages</li>
+  <li>Responsive design (looks just as good on mobile)</li>
+  <li>Syntax highlighting, with the help of Pygments</li>
+  <li>Markdown and HTML text formatting</li>
+  <li>Pagination of posts</li>
+  <li>Sticky posts</li>
+  <li>Tags</li>
+  <li>Excerpt management</li>
+  <li>Disqus comments</li>
+</ul>
+
+<h3 id="footnotes">Footnotes</h3>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>For now, there is no toggle button for the dark mode. This is by design. I wanted the dark-mode to be on if the browser or system level dark-mode is enabled. Maybe, in a later version, I will add support for a dark/light toggle. Happy to accept a PR! <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+:ET

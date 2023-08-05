@@ -1,0 +1,19 @@
+I"¾<p>Typically, posts in Jekyll have a <code class="language-plaintext highlighter-rouge">date</code> entry in the postâ€™s frontmatter. This date, if not specified will be taken to be the date when the post was last modified.</p>
+
+<!--more-->
+
+<p>This is done using the <code class="language-plaintext highlighter-rouge">jekyll-last-modified-at</code> plugin. The last-modified date is only used, if a <code class="language-plaintext highlighter-rouge">date</code> in not specified in the front matter. Also, you can specify the <code class="language-plaintext highlighter-rouge">lastmod</code> date in the front matter using the <code class="language-plaintext highlighter-rouge">last_modified_at</code> keyword:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nn">---</span>
+<span class="na">title</span><span class="pi">:</span> <span class="s2">"</span><span class="s">Posts</span><span class="nv"> </span><span class="s">Without</span><span class="nv"> </span><span class="s">Date</span><span class="nv"> </span><span class="s">in</span><span class="nv"> </span><span class="s">Frontmatter"</span>
+<span class="na">layout</span><span class="pi">:</span> <span class="s">post</span>
+<span class="na">date</span><span class="pi">:</span> <span class="s">1st Sept </span><span class="m">2022</span>
+<span class="na">showlastmod</span><span class="pi">:</span> <span class="s">yes</span>
+<span class="na">author</span><span class="pi">:</span> <span class="s2">"</span><span class="s">xxx"</span>
+<span class="na">comments</span><span class="pi">:</span> <span class="no">false</span>
+<span class="na">tags</span><span class="pi">:</span> <span class="s">Tail</span>
+<span class="na">excerpt_separator</span><span class="pi">:</span> <span class="s">&lt;!--more--&gt;</span>
+<span class="na">hidden</span><span class="pi">:</span> <span class="no">false</span>
+<span class="nn">---</span>
+</code></pre></div></div>
+:ET
