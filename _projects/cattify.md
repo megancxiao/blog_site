@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cattify *
+title: Cattify
 description: spotify cat spotify cat spotify cat
 redirect: https://cattify.meganxiao.xyz
 ---
